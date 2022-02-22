@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr"  [COLOR="Red"] viewsource="no"[/COLOR]>
+<head>
+    <title>Seminaire Biblique Partie 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+<body>
+  <div class="title">
+     <h1>Seminaire Biblique Partie 1</h1>
+  </div>
+  <div class="info">
+   <h3 class="comments"><a href="#comments">Commentaires</a></h3>
+   
+   <h3><a href="/" target="blank">Choisir un autre message</a></h3>
+   <h3><a href="part-3/" target="blank">Partie 3</a></h3>
+   <h3><a href="part-2/" target="blank">Partie 2</a></h3>
+ </div>
+  <div class="content">
+     <section id="hero">
+         <div class="hero-container">
+             <div class="section-title">
+                 <!--Ne téléchargez surtout PAS cette vidéo-->
+                  <div class="media-wrapper">
+                     <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+                     <iframe src="video/"  width="100%"   frameborder="0"></iframe>
+                     
+                     
+                  </div>
+                   
+                 
+                 </div>
+                 
+                     
+                 
+         </div>
+     </section>
+     
+ </body>
+ 
+ 
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement-and-player.min.js"></script>
+ <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+ <script>
+     var myFP = fluidPlayer(
+         'video-id',	{
+   "layoutControls": {
+     "controlBar": {
+       "autoHideTimeout": 3,
+       "animated": true,
+       "autoHide": true
+     },
+     "htmlOnPauseBlock": {
+       "html": null,
+       "height": null,
+       "width": null
+     },
+     "autoPlay": false,
+     "mute": true,
+     "allowTheatre": true,
+     "playPauseAnimation": false,
+     "playbackRateEnabled": false,
+     "allowDownload": false,
+     "playButtonShowing": false,
+     "fillToContainer": false,
+     "posterImage": ""
+   },
+   "vastOptions": {
+     "adList": [],
+     "adCTAText": false,
+     "adCTATextPosition": ""
+   }
+ });
+ </script>
+ <!-- Vue JS -->
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+ <!-- jQuery -->
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+ 
+   <script>
+     /* To Disable Inspect Element */
+     $(document).bind("contextmenu",function(e) {
+      e.preventDefault();
+     });
+     
+     $(document).keydown(function(e){
+         if(e.which === 123){
+            return false;
+         }
+     });
+     </script>
+ 
+     <script>
+       (function () { 
+     const rgx = new RegExp(/(domainName)|(:portNumUsedInLocalDev)|/g); 
+     const host = window.location.host; 
+     const isMatch = !host.match(rgx); 
+  
+     function showWarning() { 
+         let warning = document.createElement('h1'); 
+         warning.innerText = 'DON\'T STEAL'; 
+         warning.style.fontSize = '5em'; 
+         warning.style.fontWeight = 700; 
+         warning.style.position = 'fixed'; 
+         warning.style.left = `${(window.innerWidth/2)}px`; 
+         warning.style.top =`${ window.innerHeight /2}px`; 
+         warning.style.zIndex = 9999; 
+         document.body.appendChild(warning); 
+     } 
+  
+     function exactRvg () { 
+         cornify_add(); 
+  
+             window.setTimeout(()=> { 
+                 exactRvg(); 
+             }, 500); 
+  
+     } 
+     if (isMatch ) { 
+         showWarning(); 
+         $.getScript('https://www.cornify.com/js/cornify.js',function(){ 
+             exactRvg(); 
+         }); 
+     } 
+  
+ })(); 
+ 
+ console._log = console.log 
+ console.log = function (log) { 
+   return console._log(`%c ${log}`, 'color:rgba(255,255,255,0)'); 
+ } 
+     </script>
+ 
+  <script>
+   document.onkeydown = function(e) {
+     if(event.keyCode == 123) {
+      return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+      return false;
+     }
+     if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+      return false;
+     }
+     if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+      return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+      return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+       return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+        return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+        return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+        return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+     return false;
+     }
+     }
+     </script>
+     <script>
+         document.addEventListener('keydown', function() {
+   if (event.keyCode == 123) {
+     alert("This function has been disabled to prevent you from stealing my code!");
+     return false;
+   } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+     alert("This function has been disabled to prevent you from stealing my code!");
+     return false;
+   } else if (event.ctrlKey && event.keyCode == 85) {
+     alert("This function has been disabled to prevent you from stealing my code!");
+     return false;
+   }
+ }, false);
+ 
+ if (document.addEventListener) {
+   document.addEventListener('contextmenu', function(e) {
+     alert("This function has been disabled to prevent you from stealing my code!");
+     e.preventDefault();
+   }, false);
+ } else {
+   document.attachEvent('oncontex<<tmenu', function() {
+     alert("This function has been disabled to prevent you from stealing my code!");
+     window.event.returnValue = false;
+   });
+ }
+     </script>
+ 
+     <script>
+         window.setInterval(function(){
+     var frame = document.getElementById("frame");
+     if(frame.src  !== expectedSource){
+         window.location.href = "unauthorized.html" // or something like that
+     }
+ }, 300);
+ 
+ // load iframe
+ window.onload = function(){
+    var frame = document.createElement("iframe");
+    document.body.insertBefore(frame, container); // container implies an existin DOM element 
+    frame.src = expectedSource; // you will need some way to get the expected source and load it
+ }
+     </script>
+ </html>
