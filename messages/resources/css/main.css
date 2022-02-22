@@ -587,27 +587,6 @@ iframe{
 
 /* Media Query for Desktop */
 @media only screen and (min-width: 1200px){
-    #header .hamburger{
-        display: none;
-    }
-    #header .nav-list ul{
-        position: initial;
-        display: block;
-        height: auto;
-        width: fit-content;
-        background-color: transparent;
-    }
-    #header .nav-list ul li{
-        display: inline-block;
-    }
-    #header .nav-list ul li a{
-        font-size: 1.9rem;
-        padding-left: 20px;
-        font-weight: 700;
-    }
-    #header .nav-list ul a::after{
-        display: none;
-    }
     #services-2 .section-title{
         font-size: 0.6rem;
     }
